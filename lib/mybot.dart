@@ -19,7 +19,7 @@ class _ChatBotState extends State<ChatBot> {
   List<ChatUser> typing = [];
 
   final oururl =
-      'https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=AIzaSyB6wwW6Yus3as01hM0eOUJw6RtED1Zv0ws';
+      'https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=YOUR_API_KEY';
 
   final header = {'Content-Type': 'application/json'};
 
